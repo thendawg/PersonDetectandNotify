@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>ML Cam Display</title>
+	<style>
+	body {
+		background-color: black;
+	}
+	</style>
+  </head>
+  <body>
+		<table width="1785">
+		<tr>
+		<td width="595" align="center">
+		<img id="mlcam" src="{{ url_for('video_feed1') }}" height="332" width="590"  \>
+		</td>
+		<td width="595" align="center">
+		<img id="mlcam2" src="{{ url_for('video_feed2') }}" height="332" width="590"  \>
+		</td>
+		<td width="595" align="center">
+		<img id="mlcam3" src="{{ url_for('video_feed3') }}" height="332" width="590"  \>
+		</td>
+		</tr>
+		</table>
+  </body>
+</html>

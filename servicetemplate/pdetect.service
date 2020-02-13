@@ -1,0 +1,13 @@
+[Unit]
+Description=Person Detection TF Service
+After=network.target
+
+[Service]
+User=username
+Type=simple
+WorkingDirectory=/home/user/path/
+ExecStart=/home/user/path/scripts/start.sh
+
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070
+sudo apt-get purge nvidia*
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo rm -rf /usr/local/cuda*
+Download cuda from nvidia and follow install instructions (Currently need ver 10.0 7-3-19)
+sudo apt-get install xserver-xorg-input-all
+isntall cudnn https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
+Install pip
+pip3 install pushbullet.py
+pip3 install flask
+pip3 install opencv-python
